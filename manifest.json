@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "game": "Code Geass: Hangyaku no Lelouch LOST COLORS (Japan)",
+  "disc_id": "ULJS00135",
+  "release": "fontfix2-preview",
+  "date": "2026-10-19",
+  "classification": "PRE_RELEASE_FONT_REPAIR_NOT_COMPLETE_LOCALIZATION",
+  "source": {
+    "name": "Code Geass - Hangyaku no Lelouch - Lost Colors (Japan) (v1.01).iso",
+    "revision": "1.01",
+    "bytes": 913670144,
+    "sha256": "2fff44d387c88c7243eba66c433afa2fa29d24e9b3a4347c48de4a8a41ae27ce",
+    "crc32": "5DE82E84"
+  },
+  "target": {
+    "name": "Code_Geass_KO_PSP_FontFix2.iso",
+    "bytes": 1014665216,
+    "sha256": "56496c492fb2298b2b5350fb7758fe5c04ae13852076b9aa4bac6de85c819c8c",
+    "crc32": "9C8D8669"
+  },
+  "patch": {
+    "name": "Code_Geass_JP_v101_to_KO_PSP_FontFix2.xdelta",
+    "bytes": 22086669,
+    "sha256": "c257d9c55af3ef0f2165ecfb68c43ae96507f467b5f8f171d195c4fb913c6a14"
+  },
+  "decoder": {
+    "name": "xdelta3.exe",
+    "version": "3.2.0",
+    "platform": "Windows x86_64",
+    "bytes": 336896,
+    "sha256": "6e812b38484d0c764291779fadee83ffbe2eceaccb4e3a21f8a043a02654a01e",
+    "license": "Apache-2.0",
+    "upstream": "https://github.com/jmacd/xdelta/releases/tag/v3.2.0",
+    "download_url": "https://github.com/jmacd/xdelta/releases/download/v3.2.0/xdelta3-3.2.0-windows-x86_64.zip",
+    "download_sha256": "8aca331c3d49ec4465ee8f3f7e3afb92e06d36e32fdec422c3252aaa813a7d2a"
+  },
+  "font": {
+    "name": "Noto Sans KR",
+    "weight": 600,
+    "px": 15,
+    "source_sha256": "018174e8cdd366aff67c8d366c7dc806a7babbe7f2819fc23b00d59f7b8353d0",
+    "license": "SIL Open Font License 1.1",
+    "upstream": "https://github.com/google/fonts/tree/main/ofl/notosanskr"
+  },
+  "font_resources_rebuilt": 646,
+  "string_records_preserved": 29461,
+  "roms_included": false,
+  "runtime": {
+    "date": "2026-10-19",
+    "device": "PSP-3000",
+    "firmware": "6.61",
+    "custom_firmware": "ARK-5",
+    "status": "USER_REPORTED_PARTIAL_IMPROVEMENT",
+    "verbatim": "fix2 어느정도 되는듯.",
+    "scope": "User reported qualified improvement after the FontFix2 retest request. No new screenshots or device file hash supplied.",
+    "full_playthrough": "NOT_VERIFIED",
+    "name_entry_and_save_load": "NOT_SEPARATELY_VERIFIED"
+  },
+  "release_url": "https://github.com/ssjwoo/code-geass-lost-colors-korean-patch/releases/tag/fontfix2-preview"
+}

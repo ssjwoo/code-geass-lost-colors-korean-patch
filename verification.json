@@ -1,0 +1,32 @@
+{
+  "classification": "PRE_RELEASE_REVIEW_CANDIDATE",
+  "static": "PASS",
+  "dialogue_resources": 646,
+  "unchanged_string_records": 29461,
+  "fontfix2_unplanned_writes": "NONE",
+  "runtime": {
+    "date": "2026-10-19",
+    "device": "PSP-3000",
+    "firmware": "6.61",
+    "custom_firmware": "ARK-5",
+    "status": "USER_REPORTED_PARTIAL_IMPROVEMENT",
+    "verbatim": "fix2 어느정도 되는듯.",
+    "scope": "User reported qualified improvement after the FontFix2 retest request. No new screenshots or device file hash supplied.",
+    "full_playthrough": "NOT_VERIFIED",
+    "name_entry_and_save_load": "NOT_SEPARATELY_VERIFIED"
+  },
+  "emulator": "PPSSPP 1.20.4 cold boot, first dialogue and female/male student scenes readable",
+  "patch_roundtrip": "PASS_EXACT_TARGET_SHA256",
+  "package_application": "PASS_ACTUAL_WINDOWS_CMD_AND_POWERSHELL",
+  "source_sha256": "2fff44d387c88c7243eba66c433afa2fa29d24e9b3a4347c48de4a8a41ae27ce",
+  "target_sha256": "56496c492fb2298b2b5350fb7758fe5c04ae13852076b9aa4bac6de85c819c8c",
+  "application_checks": {
+    "01_cmd_real_source": "PASS",
+    "02_existing_valid_output": "PASS",
+    "03_wrong_revision": "PASS",
+    "04_existing_invalid_output": "PASS",
+    "05_corrupt_patch": "PASS",
+    "06_same_size_wrong_source_hash": "PASS"
+  },
+  "application_environment": "Windows PowerShell 5.1, cmd.exe, official xdelta3 3.2.0 Windows x64; paths with spaces and Hangul"
+}
