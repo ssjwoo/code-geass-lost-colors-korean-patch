@@ -2,9 +2,9 @@
   "schema_version": 1,
   "game": "Code Geass: Hangyaku no Lelouch LOST COLORS (Japan)",
   "disc_id": "ULJS00135",
-  "release": "fontfix2-preview",
-  "date": "2026-10-19",
-  "classification": "PRE_RELEASE_FONT_REPAIR_NOT_COMPLETE_LOCALIZATION",
+  "release": "v1.0",
+  "date": "2026-10-24",
+  "classification": "STABLE_RELEASE_USER_AUTHORIZED_SCOPED_VERIFICATION",
   "source": {
     "name": "Code Geass - Hangyaku no Lelouch - Lost Colors (Japan) (v1.01).iso",
     "revision": "1.01",
@@ -13,15 +13,16 @@
     "crc32": "5DE82E84"
   },
   "target": {
-    "name": "Code_Geass_KO_PSP_FontFix2.iso",
-    "bytes": 1014665216,
-    "sha256": "56496c492fb2298b2b5350fb7758fe5c04ae13852076b9aa4bac6de85c819c8c",
-    "crc32": "9C8D8669"
+    "name": "Code_Geass_KO_PSP_v1.0.iso",
+    "bytes": 1017532416,
+    "sha256": "ef97e88d618c2a08f500759ad98ba9a7fc7bae1c856b1340dd1d2de44851767e",
+    "crc32": "E89EDE72"
   },
   "patch": {
-    "name": "Code_Geass_JP_v101_to_KO_PSP_FontFix2.xdelta",
-    "bytes": 22086669,
-    "sha256": "c257d9c55af3ef0f2165ecfb68c43ae96507f467b5f8f171d195c4fb913c6a14"
+    "name": "Code_Geass_JP_v101_to_KO_v1.0.xdelta",
+    "bytes": 147980636,
+    "sha256": "bf12ee3870bf674b456ef28b38c3c37d7cae04790cb436215e4eb40694132490",
+    "crc32": "6F7F3CF6"
   },
   "decoder": {
     "name": "xdelta3.exe",
@@ -46,15 +47,22 @@
   "string_records_preserved": 29461,
   "roms_included": false,
   "runtime": {
-    "date": "2026-10-19",
-    "device": "PSP-3000",
-    "firmware": "6.61",
-    "custom_firmware": "ARK-5",
-    "status": "USER_REPORTED_PARTIAL_IMPROVEMENT",
-    "verbatim": "fix2 어느정도 되는듯.",
-    "scope": "User reported qualified improvement after the FontFix2 retest request. No new screenshots or device file hash supplied.",
+    "hardware": "USER_REPORTED_BOOT_WORKS",
+    "device": "PSP-3000 / 6.61 ARK-5",
+    "date": "2026-10-24",
+    "pc": "PPSSPP exact-image boot, opening subtitles, CC5, opening skip, ordinary dialogue passed",
     "full_playthrough": "NOT_VERIFIED",
-    "name_entry_and_save_load": "NOT_SEPARATELY_VERIFIED"
+    "all_movies_on_hardware": "NOT_VERIFIED",
+    "save_load": "NOT_SEPARATELY_VERIFIED"
   },
-  "release_url": "https://github.com/ssjwoo/code-geass-lost-colors-korean-patch/releases/tag/fontfix2-preview"
+  "release_url": "https://github.com/ssjwoo/code-geass-lost-colors-korean-patch/releases/tag/v1.0",
+  "movie_counts": {
+    "captioned_pmf": 21,
+    "preserved_original_pmf": 7,
+    "speech_song_cues": 148,
+    "credit_role_headers": 420,
+    "cc_live_scene_cues": 5
+  },
+  "xmb_title": "CG LC - ALIGN FIX 1",
+  "diagnostic_log": "ms0:/CG_FULL_TRACE.BIN (first-call startup trace; overwritten on launch)"
 }

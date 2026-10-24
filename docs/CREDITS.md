@@ -5,3 +5,5 @@
 - 대사 재생성 글꼴: Noto Sans KR, SIL Open Font License 1.1. `FONT_OFL.txt`를 동봉합니다. 원본 폰트 SHA256과 고정 렌더링 조건은 `manifest.json`에 기록했습니다.
 - 적용 도구: Joshua MacDonald의 xdelta3 3.2.0, Apache License 2.0. 공식 Windows x64 배포본을 사용하며 `LICENSE_xdelta.txt`를 동봉합니다. 출처: https://github.com/jmacd/xdelta/releases/tag/v3.2.0
 - 이 저장소의 새 적용 스크립트·문서에는 별도의 이용 허락을 선언하지 않았습니다. 위 외부 도구·글꼴의 라이선스와 게임/기존 패치 권리는 각각 별개입니다.
+
+- v1.0의 영상·도입부 자막과 부팅 보수는 이 프로젝트에서 추가했습니다. 일부 청취/표현 검수가 남아 있으며 기존 한글 번역 전체를 새로 작성한 것으로 표시하지 않습니다. 영상 자막도 Noto Sans KR 계열 글꼴을 사용합니다.

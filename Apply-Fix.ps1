@@ -40,8 +40,8 @@ try {
         exit 0
     }
     [System.IO.Directory]::CreateDirectory($OutputDirectory) | Out-Null
-    $taskTemp = Join-Path $OutputDirectory ('FontFix2_' + [Guid]::NewGuid().ToString('N') + '.partial')
-    Write-Output 'FontFix2 ISO를 새 파일로 생성합니다...'
+    $taskTemp = Join-Path $OutputDirectory ('KO_v1_0_' + [Guid]::NewGuid().ToString('N') + '.partial')
+    Write-Output 'KO_v1_0 ISO를 새 파일로 생성합니다...'
     & $taskDecoder -a -d -s $SourcePath $taskPatch $taskTemp
     if ($LASTEXITCODE -ne 0) { throw "xdelta 적용 실패: 종료 코드 $LASTEXITCODE" }
     Assert-File $taskTemp $taskManifest.target '생성한 ISO'
